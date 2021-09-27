@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.quanticheart.biometric.databinding.ActivityEnableBiometricLoginBinding
 import com.quanticheart.core.biometrics.biometricSession
+import com.quanticheart.core.extentions.setFinishActionListener
 import com.quanticheart.core.fakeLogin
 
 class EnableBiometricLoginActivity : AppCompatActivity() {
